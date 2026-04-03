@@ -1,0 +1,47 @@
+# dependencies
+**/node_modules/
+
+# build output
+**/dist/
+
+# env files
+.env
+**/.env*.local
+
+# TypeScript
+*.tsbuildinfo
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# ---- client (Expo / React Native) ----
+**/.expo/
+**/web-build/
+expo-env.d.ts
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.pem
+.metro-health-check*
+app-example
+client/ios
+client/android
+
+# ---- server ----
+logs
+*.log
+npm-debug.log*
+pids
+*.pid
+*.seed
+lib-cov
+coverage
+.nyc_output
+profile-*
+*clinic*
+*flamegraph*
